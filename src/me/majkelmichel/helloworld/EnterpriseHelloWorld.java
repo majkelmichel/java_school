@@ -9,7 +9,7 @@ public class EnterpriseHelloWorld {
         AbstractFactory helloWorldFactory = FactoryProducer.getFactory();
         HelloWorld helloWorld = helloWorldFactory.getHelloWorld();
 
-        System.out.println(helloWorld.getWorld());
+        helloWorld.print();
     }
 
 }
