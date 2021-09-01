@@ -23,7 +23,7 @@ class HelloWorldTest {
     void main() {
         final String expected = "Hello World\r\n";
 
-        HelloWorld.main(new String[] {});
+        NormalHelloWorld.main(new String[] {});
         assertEquals(expected, outContent.toString());
     }
 
@@ -31,7 +31,7 @@ class HelloWorldTest {
     void getHelloWorld() {
         final String expected = "Hello World";
 
-        assertEquals(expected, HelloWorld.getHelloWorld());
+        assertEquals(expected, NormalHelloWorld.getHelloWorld());
     }
 
     @AfterAll
