@@ -8,7 +8,7 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class HelloWorldTest {
+class NormalHelloWorldTest {
     final static ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     final static ByteArrayOutputStream errContent = new ByteArrayOutputStream();
 
